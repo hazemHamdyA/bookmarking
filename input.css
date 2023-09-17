@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+body {
+  color: #9194a1;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+.active-tap {
+  @apply border-b-4 pb-4 border-[#fa5757];
+}
+
+.hide {
+  @apply hidden;
+}
+
+.active-comp {
+  @apply text-[#5267DF];
+}
